@@ -26,7 +26,7 @@ const Projects = () => {
         title: "Portfolio Website",
         description: "A modern, single-page portfolio built using React.js to showcase my skills, projects, and contact information in an interactive and responsive design. The site highlights my expertise as a MERN stack developer, featuring smooth animations, a dark-themed UI, and floating tech icons for a visually engaging experience.",
         image: Portfolio,
-        demoLink: "https://your-portfolio.com",
+        demoLink: "https://portfolio-inky-chi-31.vercel.app/",
         codeLink: "https://github.com/AkashKumar-004/Portfolio",
     },
     {
