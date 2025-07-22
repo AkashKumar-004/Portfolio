@@ -27,7 +27,7 @@ const Projects = () => {
         description: "A modern, single-page portfolio built using React.js to showcase my skills, projects, and contact information in an interactive and responsive design. The site highlights my expertise as a MERN stack developer, featuring smooth animations, a dark-themed UI, and floating tech icons for a visually engaging experience.",
         image: Portfolio,
         demoLink: "https://your-portfolio.com",
-        codeLink: "https://github.com/your-portfolio-repo",
+        codeLink: "https://github.com/AkashKumar-004/Portfolio",
     },
     {
         id: 4,
@@ -82,14 +82,17 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="flex flex-wrap justify-center md:justify-start gap-4">
-                <a
-                  href={project.demoLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full font-medium transition-all duration-300 shadow-md"
-                >
-                  🚀 Live Demo
-                </a>
+                {project.demoLink && (
+                  <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full font-medium transition-all duration-300 shadow-md"
+                  >
+                    🚀 Live Demo
+                  </a>
+                )}
+
                 <a
                   href={project.codeLink}
                   target="_blank"
