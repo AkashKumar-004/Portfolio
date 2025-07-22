@@ -47,7 +47,7 @@ const Hero = () => {
           <a href="#contact" className="border border-blue-400 hover:bg-blue-500 hover:text-white text-blue-400 px-6 py-2 rounded-xl transition">
             Contact Me
           </a>
-          <a href="/resume.pdf" download className="border border-blue-400 hover:bg-blue-500 hover:text-white  text-blue-400 px-6 py-2 rounded-xl transition">
+          <a href="https://drive.google.com/uc?export=download&id=1dElcrCJegPmOY2LqE5vRhxxnRDPcnowP" download className="border border-blue-400 hover:bg-blue-500 hover:text-white  text-blue-400 px-6 py-2 rounded-xl transition">
             Download Resume
           </a>
 
